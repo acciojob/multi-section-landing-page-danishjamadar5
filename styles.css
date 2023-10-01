@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Add your global styles here */
+
+/* Style the header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header #logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 100px; /* Adjust the size as needed */
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Style the sections and other elements similarly */
